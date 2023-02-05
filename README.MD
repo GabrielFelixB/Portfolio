@@ -1,1 +1,1 @@
-<h1>Olá seja Bem vindo ao meu Portfolio<h1>
+<h1 style=" text-align = center; ">Olá seja Bem vindo ao meu Portfolio<h1>
