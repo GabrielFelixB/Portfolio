@@ -120,7 +120,8 @@
   justify-content: space-around;
 }
 
-.hero-btn button{
+.hero-btn .button{
+  text-decoration: none;
   display: flex;
   padding: 10px 22px;
   align-items: center;
@@ -133,7 +134,9 @@
   font-size:1rem;
 }
 
-.hero-btn button:last-child{
+
+
+.hero-btn .button:nth-child(2n){
   border-image: var(--gradient-pink) 1;
 }
 
