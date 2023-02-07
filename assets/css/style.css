@@ -132,20 +132,27 @@
   background: none;
   color: white;
   font-size: 1rem;
+  width: 144px;
+  justify-content: center;
+  font-weight: 500;
 }
 
 .hero-btn .button:nth-child(2n) {
   border-image: var(--gradient-pink) 1;
 }
 
-
-.sobre {
+.sobre{
   background-color: var(--dark-200);
-  color: var(--light);
   padding: 40px 24px;
 }
 
+.sobre_apresentacao {
+  color: var(--light);
+  
+}
+
 .sobre h2 {
+  color: var(--light);
   font-size: 1.5rem;
   text-transform: uppercase;
   margin-bottom: 16px;
@@ -154,9 +161,10 @@
 .sobre h3 {
   font-size: 1rem;
   margin-bottom: 8px;
+  color: var(--light);
 }
 
-.sobre p {
+.sobre_apresentacao p {
   font-size: .875rem;
   font-weight: 300;
   line-height: 20px;
